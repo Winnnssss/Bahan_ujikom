@@ -18,10 +18,11 @@ class DatabaseSeeder extends Seeder
             'name' => 'Wiwin Dahnengsih',
             'isrole' => '1',
             'namerole' => 'administrator',
-            'email' => 'fjr@gmail.com',
+            'email' => 'dika2@gmail.com',
             'password' => bcrypt('password')
 
         ]);
         // \App\Models\User::factory(5)->create();
     }
 }
+ 

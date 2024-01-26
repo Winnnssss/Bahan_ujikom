@@ -109,7 +109,7 @@ $Konversi = new \App\Helpers\Konversi; //panggil no static function
 </div>
 
  <!-- Modal effects -->
- <div class="modal fade effect-scale" id="mdl_formImport" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade effect-scale" id="mdl_formImport" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" id="area_formImport" role="document">
             <div class="modal-content modal-content-demo">
             <form id="formImport" action="{{ route('data_pengguna.import_excel') }}" method="post" enctype="multipart/form-data">
